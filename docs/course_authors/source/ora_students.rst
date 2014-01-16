@@ -8,15 +8,6 @@ Open Response Assessments for Students
 Introduction to Open Response Assessments
 -----------------------------------------
 
-.. note::
-
-    Modify this section according to your course. For example, you
-    can delete sentences such as "For more information, see :ref:`ORA Peer Assessment`"
-    and "For more information, see :ref:`ORA AI Assessment`" if your ORA problem doesn't
-    contain peer assessments or AI assessments and you want to delete these sections from
-    this document.
-
-
 Open response assessments allow you to submit a short written answer,
 an essay, or a file such as an image or computer code file.
 
@@ -31,30 +22,18 @@ that you'll click to upload your file.
 
 .. image:: /Images/ExampleORA_File.gif
 
-The *assessment types* can include *self assessment*, *peer assessment*, and *artificial intelligence (AI) assessment*. The
-assessment types run in the order in which they appear in the problem.
-
-- In a self assessment, you assess your response according a rubric that the
-  instructor has created. For more information, see :ref:`ORA Self Assessment`.
 
 - In a peer assessment, you grade
   responses that your peers have submitted while several of your peers
   grade your response. For more information, see
   :ref:`ORA Peer Assessment`.
 
-- In an AI assessment, a computer algorithm grades your response. For more information,
-  see :ref:`ORA AI Assessment`.
-
-An open response assessment problem doesn't have to use all assessment types. For example, one problem
-may use self assessment and AI assessment, while another problem may use self assessment
-and peer assessment, and another problem may use only peer assessment.
-
 You'll answer open response assessment problems in much the same way that you answer other
 problems. For more information about how to submit responses, see :ref:`ORA Submit a Response`.
 
 When you submit a response to an open response assessment, the next step
 depends on the type of assessment that the problem uses. For more information,
-see :ref:`ORA Self Assessment`, :ref:`ORA Peer Assessment`, and :ref:`ORA AI Assessment`.
+see :ref:`ORA Peer Assessment`
 
 After you submit your response, your score will be available shortly - sometimes within a few
 minutes. For information about how to access your score after your response has been graded,
@@ -94,45 +73,12 @@ or uploading a file.
 
 After you submit your response, the assessment types start running in the order in which they
 appear in the problem. For more information,
-see :ref:`ORA Self Assessment`, :ref:`ORA Peer Assessment`, or :ref:`ORA AI Assessment`.
-
-.. _ORA Self Assessment:
-
-Self Assessment
----------------
-
-.. note::
-
-    You can delete this section if your ORA problem doesn't use self assessments.
-
-
-In a self assessment, the rubric for the problem appears below your response immediately
-after you submit the response. You then assess your response based on the rubric.
-
-Perform a Self Assessment
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-#. Submit a response to a self-assessed ORA problem.
-
-#. When the rubric appears, compare your response with the rubric, and select the
-   option that you think is appropriate for each category.
-
-   .. image:: /Images/Rubric1.gif
-
-#. Click **Submit assessment**.
-
-   Your response appears, and you can see the scores that you gave
-   yourself.
+see :ref:`ORA Peer Assessment`
 
 .. _ORA Peer Assessment:
 
 Peer Assessment
 ---------------
-
-.. note::
-
-    You can delete this section if your ORA problem doesn't use peer assessments.
-
 
 In a peer assessment, several students in the course grade your response while you grade
 other students' responses. You have to grade a number of your peers' responses before
@@ -176,14 +122,6 @@ below.
 
 Step 1: Access responses from other students
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. note::
-
-    Modify the content in this section according to
-    your course. For example, if your students can only grade by using the **Open
-    Ended Console** page, change the introductory sentence below, and delete the
-    second and third bullets.
-
 
 **Note** *You can only grade a response if you've submitted a response to the
 question, an instructor has already graded at least 20 responses, and
@@ -315,46 +253,11 @@ to continue grading.
           the grading pool until 30 minutes have passed. When the response returns to the
           grading pool, you can grade it.
 
-.. _ORA AI Assessment:
-
-Artificial Intelligence (AI) Assessment
----------------------------------------
-
-.. note::
-
-    You can delete this section if your ORA problem doesn't use AI assessments.
-
-
-In an AI assessment, an instructor grades a sample set of student responses to the
-open response assessment problem. A machine learning algorithm then creates a model
-based on the instructor's scores and grades the remaining students' responses.
-
-After you submit your response to an AI assessment, the following message appears under your
-response.
-
-    **Your response has been submitted. Please check back later for your grade.**
-
-Depending on the time that it takes for the instructor to grade a sample set of
-responses, you may receive your grade within minutes, or you may have to wait
-a few days. You won't receive a notification when your score is ready, so keep
-checking back.
-
-For more information about accessing your scores, see :ref:`ORA Access Scores`.
-
-.. _ORA Access Scores:
 
 Access Scores and Feedback
 --------------------------
 
-.. note::
-
-    Modify the text in this section to apply to your course.
-
-
-For *self assessments*, the score that you give yourself appears as soon as you submit
-the score.
-
-For *peer assessments* and *AI assessments*, you'll access your scores through the **Open Ended Console** page.
+For *peer assessments*, you'll access your scores through the **Open Ended Console** page.
 
 #. In the EdX Demo course, click the **Open Ended Panel** tab at the top
    of the page.
@@ -370,7 +273,7 @@ For *peer assessments* and *AI assessments*, you'll access your scores through t
    click the name of the problem to see your score for that problem. When you
    click the name of the problem, the problem opens in the courseware.
 
-For both AI and peer assessments, the score appears below your response
+For peer assessments, the score appears below your response
 in an abbreviated version of the rubric.
 
 .. image:: /Images/AIScoredResponse.gif
@@ -381,7 +284,7 @@ graders.
 
 .. image:: /Images/PeerScoredResponse.gif
 
-If you want to see the full rubric for either an AI or peer assessment,
+If you want to see the full rubric for peer assessment,
 click **Toggle Full Rubric**.
 
 .. note:: For a peer assessment, if you haven't yet graded enough
@@ -391,18 +294,3 @@ click **Toggle Full Rubric**.
 .. image:: /Images/FeedbackNotAvailable.gif
 
 For more information about grading peer assessments, see :ref:`ORA Peer Assessment`.
-
-Resubmitting a Response
------------------------
-
-.. note::
-
-    You can delete this section if you don't allow students to submit multiple responses.
-
-Some open response assessments allow multiple attempts. For these
-problems, a **New Submission** button appears below your original
-response.
-
-If you want to answer the question again, click **New Submission** to
-clear your former response, and click **OK** in the dialog box that
-appears. You can then enter a new response for the problem.
