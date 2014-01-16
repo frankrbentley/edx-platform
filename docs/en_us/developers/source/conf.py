@@ -8,7 +8,7 @@ import sys, os
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-sys.path.append('../../../')
+sys.path.append('../../../../')
 
 from docs.shared.conf import *
 
